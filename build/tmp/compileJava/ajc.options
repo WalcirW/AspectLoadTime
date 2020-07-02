@@ -1,0 +1,10 @@
+-inpath
+/home/walcirw/comforte/AspectLoadTime/build/classes/java/main
+-classpath
+/home/walcirw/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.9.5/dc063f2557f6734ccb529b4c1d97132e4c8c739/aspectjrt-1.9.5.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.5/1740dc9140103b796d1722668805fd4cf852780c/aspectjweaver-1.9.5.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjtools/1.9.5/dfca1edabdca4f262d7f7c45cd8e11e6b88b9f6/aspectjtools-1.9.5.jar
+-d
+/home/walcirw/comforte/AspectLoadTime/build/classes/java/main
+-target
+1.8
+-source
+1.8

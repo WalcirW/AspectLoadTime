@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'io.freefair.aspectj.post-compile-weaving' version '5.1.0'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+aspectj {
+    version = "1.9.5"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    def aspectjVersion = '1.9.5'
+    def junitVersionNumber = '5.4.0'
+
+    // dependencies for project compile task
+    compile(
+            [group: 'org.aspectj', name: 'aspectjrt', version: aspectjVersion],
+            [group: 'org.aspectj', name: 'aspectjweaver', version: aspectjVersion],
+            [group: 'org.aspectj', name: 'aspectjtools', version: aspectjVersion]
+    )
+
+
+    testCompile(
+            [group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: junitVersionNumber],
+            [group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: junitVersionNumber],
+            [group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: junitVersionNumber]
+    )
+}
+
+// run tests based on JUnit v5
+test {
+    useJUnitPlatform()
+    maxParallelForks = 2
+}
+

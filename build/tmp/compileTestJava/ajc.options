@@ -1,0 +1,10 @@
+-inpath
+/home/walcirw/comforte/AspectLoadTime/build/classes/java/test
+-classpath
+/home/walcirw/comforte/AspectLoadTime/build/classes/java/main:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.9.5/dc063f2557f6734ccb529b4c1d97132e4c8c739/aspectjrt-1.9.5.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.5/1740dc9140103b796d1722668805fd4cf852780c/aspectjweaver-1.9.5.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjtools/1.9.5/dfca1edabdca4f262d7f7c45cd8e11e6b88b9f6/aspectjtools-1.9.5.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.0/30083adf3fbd7b734f12e6cb4d99dedab99fc34b/junit-jupiter-engine-5.4.0.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.4.0/7edc0a25bd3318d05a213aee09441d72e0921fab/junit-jupiter-params-5.4.0.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.0/1a09f25a160f71c267f9ebe3b229b17805c683e9/junit-jupiter-api-5.4.0.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.0/b4419dc190a5d82b9cac6b52e0af9140895c3f87/junit-platform-engine-1.4.0.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.0/e0b2ed8fac32ad6469d75d034e759f1969db8dda/junit-platform-commons-1.4.0.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar:/home/walcirw/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/efd9f971e91074491ea55b19f67b13470cf4fcdd/opentest4j-1.1.1.jar
+-d
+/home/walcirw/comforte/AspectLoadTime/build/classes/java/test
+-target
+1.8
+-source
+1.8
