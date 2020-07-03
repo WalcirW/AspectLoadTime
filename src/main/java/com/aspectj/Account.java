@@ -1,3 +1,5 @@
+package com.aspectj;
+
 public class Account {
     private double balance = 100;
 
